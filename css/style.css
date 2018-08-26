@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{list-style: none;}
+.container {
+    max-width: 820px;
+    min-height: 500px;
+    margin: 0 auto;
+    border: 1px solid red;
+    margin-top: 20px;
+    display: flex;
+}
+.container .sidebar {
+    width: 33%;
+    background: #254665;
+    color: #ffffff;
+}
+.sidebar ul.personMessage {
+    border: 1px solid red;
+}
+
+
+
+
+.container .content {
+    width:67%;
+    
+}
+.sidebar .imgWrap{
+    width:130px;
+    height:159px;
+    background: #ccc;
+    margin-top:41px;
+    margin-left:64px;
+    margin-right:64px;
+}
